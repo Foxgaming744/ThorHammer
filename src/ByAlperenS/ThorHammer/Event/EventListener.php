@@ -59,11 +59,11 @@ class EventListener implements Listener{
                 $sound->volume = 1;
                 $sound->pitch = 1;
                 Server::getInstance()->broadcastPacket($block->getLevel()->getPlayers(), $sound);
-                $radius = 4;
-                $position = new Position($block->getX(), $block->getY(), $block->getZ(), $block->getLevel());
-                $explosion = new Explosion($position, $radius);
-                $explosion->explodeB();
-            }
-        }
-    }
-}
+             }
+         } 
+      } 
+    } 
+            
+
+
+
